@@ -1,0 +1,4 @@
+/* Contact page layout */
+.contact-grid{display:grid;grid-template-columns:2fr 2fr;gap:0rem}
+@media (max-width:920px){.contact-grid{grid-template-columns:1fr}}
+.map{aspect-ratio:16/10;width:100%;border:0;border-radius:1rem}

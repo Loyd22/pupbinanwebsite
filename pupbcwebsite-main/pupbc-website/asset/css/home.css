@@ -1,0 +1,18 @@
+/* Home page specific sections */
+/* Director feature block (currently hidden) */
+.direk .container.split{gap:1.25rem}
+.direk .card{min-height:320px; display:flex; overflow:hidden}
+.direk .photo{display:block;width:100%;height:100%;object-fit:cover;border-radius:1rem}
+.direk .card .body{flex:1}
+.direk .card .body p{margin:.5rem 0}
+.direk .muted{color:var(--muted)}
+
+/* Homepage news cards */
+.news-grid{display:grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap:1rem}
+@media (max-width:920px){.news-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.news-grid{grid-template-columns:1fr}}
+.news{display:grid; grid-template-rows: 150px auto; overflow:hidden; border-radius:1rem; border:1px solid var(--border); background:#fff; box-shadow:var(--shadow)}
+.news .img{background: linear-gradient(135deg,#fdf2f2,#fff6e5); border-bottom:1px solid var(--border)}
+.news .txt{padding:.9rem}
+.news .txt h4{margin:.25rem 0 .25rem; font-size:1rem}
+.news .txt p{margin:0;color:#4b5563; font-size:.95rem}

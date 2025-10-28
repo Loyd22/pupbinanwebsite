@@ -1,0 +1,14 @@
+/* Academic programs page layout */
+.prog-card .body p{margin-top:.5rem;}
+.prog-badges{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.5rem;}
+
+#offerings .grid{gap:1.5rem;}
+#offerings .grid{ display:grid; grid-template-columns: repeat(1, minmax(0,1fr)); }
+#offerings .prog-card .body{display:flex;gap:1.25rem;align-items:center;justify-content:space-between;}
+#offerings .prog-copy{flex:1 1 55%;min-width:min(280px, 100%);}
+#offerings .prog-media{flex:10 10 500px;width:300px;border-radius:1rem;overflow:hidden;box-shadow:var(--shadow);}
+#offerings .prog-media img{display:block;width:100%;height:100%;object-fit:cover;}
+@media (max-width: 860px){
+  #offerings .prog-card .body{flex-direction:column;align-items:flex-start;}
+  #offerings .prog-media{width:100%; height: 100px;}
+}

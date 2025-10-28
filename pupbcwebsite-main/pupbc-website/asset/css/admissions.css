@@ -1,0 +1,5 @@
+/* Admissions page helpers */
+.step-list{display:grid;gap:.65rem}
+.step{display:grid;gap:.25rem;padding:.9rem 1rem;border-left:4px solid var(--maroon);background:#fff;border-radius:.25rem}
+.num{font-weight:800;color:var(--maroon);font-size:.85rem}
+.callout{padding:1rem;border:1px dashed var(--border);border-radius:.9rem;background:#fff}
